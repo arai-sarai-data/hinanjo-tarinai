@@ -55,7 +55,7 @@ def population():
 
 
 def run():
-    urls = zip_urls(P20_PAGE, r"P20-12_\d\d(_GML)?\.zip")
+    urls = [u for u in zip_urls(P20_PAGE, r"P20-12_\d\d(_GML)?\.zip") if "/data/" in u]
     oc.check(len(urls) >= 47, "避難施設データのZIPが47都道府県分ありません(%d)" % len(urls))
     cap = defaultdict(int); nfac = defaultdict(int); flood = defaultdict(int)
     for u in urls:
