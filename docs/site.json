@@ -1,0 +1,31 @@
+{
+ "repo": "arai-sarai-data/hinanjo-tarinai",
+ "title": "避難所に入りきれない人数",
+ "title_en": "Not Enough Shelter",
+ "short": "避難所に入りきれない人数",
+ "short_en": "Not Enough Shelter",
+ "tagline": "大きな災害の夜、町の避難施設に住民の何割が入れるのか。収容人数と人口を市区町村ごとに比べました。",
+ "tagline_en": "On the night of a big disaster, what share of residents could fit in local shelters? Capacity vs. population for every municipality.",
+ "color": "#1971c2",
+ "hashtags": [
+  "防災",
+  "避難所"
+ ],
+ "langs": [
+  "ja",
+  "en"
+ ],
+ "search": {
+  "placeholder": "市区町村名で検索",
+  "placeholder_en": "Search"
+ },
+ "about": {
+  "what": "国土数値情報の避難施設の収容人数を市区町村ごとに合計し、人口と比べます。",
+  "method": "収容人数の合計÷住民基本台帳人口。",
+  "notes": [
+   "避難施設データは2012年度時点です。",
+   "全員が同時に避難所に入る想定ではありません。"
+  ]
+ },
+ "contact": "arai-sarai-data@proton.me"
+}
